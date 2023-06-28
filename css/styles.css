@@ -71,6 +71,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--primary-brand-color);
   margin-right: 76px;
+  display: inline-block;
 }
 .last-part-logo {
   color: var(--primary-dark-color);
@@ -246,8 +247,7 @@ img {
 .footer-sect p {
   color: var(--light-mode-color);
 }
-.footer-sect > .container > .logo {
-  display: inline-block;
+.footer-sect .logo {
   margin-bottom: 16px;
 }
 .footer-sect .last-part-logo {
