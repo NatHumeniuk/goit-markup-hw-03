@@ -18,10 +18,7 @@
 }
 .container {
   width: 1158px;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
   padding: 0 15px;
   display: flex;
   flex-direction: column;
@@ -249,7 +246,7 @@ img {
 .footer-sect p {
   color: var(--light-mode-color);
 }
-.footer-sect .link.logo {
+.footer-sect > .container > .logo {
   display: inline-block;
   margin-bottom: 16px;
 }
